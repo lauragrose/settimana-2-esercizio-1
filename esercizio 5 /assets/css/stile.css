@@ -263,26 +263,23 @@ footer a {
     iframe {
         min-height: 400px;
     }
+    body {
+
+    }
 }
 
 
 /* MEDIA QUERY (1200) */
 
+
 @media screen and (min-width: 1200px) {
-    h1 {
-        font-size: 4rem;
-    }
-    header {
-        font-size: 2rem;
-    }
-     article p {
-        font-size: 1.8rem;
-   }
-     article ul, ol {
-         font-size: 1.8rem;
+  
+     body {
+        font-size: x-large;
+     }
    }
 
-}
+
    
 /* MEDIA display print */
 
@@ -293,3 +290,10 @@ footer a {
 
 }
 
+/* MEDIA QUERY (320) */
+
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
